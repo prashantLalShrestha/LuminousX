@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6117079CB1A6C2ACA80C1F /* Pods_LuminousX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF59CC2B4CCB3FABB7F9C5A /* Pods_LuminousX.framework */; };
+		8F8F70BD24717719001378F4 /* LuminousX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8F70B324717718001378F4 /* LuminousX.framework */; };
+		8F8F70C224717719001378F4 /* LuminousXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70C124717719001378F4 /* LuminousXTests.swift */; };
+		8F8F70C424717719001378F4 /* LuminousX.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8F70B624717718001378F4 /* LuminousX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F8F70E624719072001378F4 /* Luminous+Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70DC24719072001378F4 /* Luminous+Battery.swift */; };
+		8F8F70E724719072001378F4 /* Luminous+Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70DD24719072001378F4 /* Luminous+Locale.swift */; };
+		8F8F70E824719072001378F4 /* Luminous+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70DE24719072001378F4 /* Luminous+Application.swift */; };
+		8F8F70E924719072001378F4 /* Luminous+Carrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70DF24719072001378F4 /* Luminous+Carrier.swift */; };
+		8F8F70EA24719072001378F4 /* Luminous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70E024719072001378F4 /* Luminous.swift */; };
+		8F8F70EB24719072001378F4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70E124719072001378F4 /* Reachability.swift */; };
+		8F8F70EC24719072001378F4 /* Luminous+Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70E224719072001378F4 /* Luminous+Disk.swift */; };
+		8F8F70ED24719072001378F4 /* Luminous+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70E324719072001378F4 /* Luminous+Audio.swift */; };
+		8F8F70EE24719072001378F4 /* Luminous+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70E424719072001378F4 /* Luminous+Network.swift */; };
+		8F8F70EF24719072001378F4 /* Luminous+Hardware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70E524719072001378F4 /* Luminous+Hardware.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F8F70BE24717719001378F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F8F70AA24717718001378F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F8F70B224717718001378F4;
+			remoteInfo = LuminousX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E8A7773DFE8F5773E1F69C7 /* Pods-LuminousX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuminousX.debug.xcconfig"; path = "../../../../PodFile/Pods/Target Support Files/Pods-LuminousX/Pods-LuminousX.debug.xcconfig"; sourceTree = "<group>"; };
+		68A664C4DE4603ABB95EDE3F /* Pods-LuminousX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuminousX.release.xcconfig"; path = "../../../../PodFile/Pods/Target Support Files/Pods-LuminousX/Pods-LuminousX.release.xcconfig"; sourceTree = "<group>"; };
+		6AF59CC2B4CCB3FABB7F9C5A /* Pods_LuminousX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuminousX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8F70B324717718001378F4 /* LuminousX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LuminousX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8F70B624717718001378F4 /* LuminousX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuminousX.h; sourceTree = "<group>"; };
+		8F8F70B724717718001378F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F8F70BC24717719001378F4 /* LuminousXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuminousXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8F70C124717719001378F4 /* LuminousXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuminousXTests.swift; sourceTree = "<group>"; };
+		8F8F70C324717719001378F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F8F70DC24719072001378F4 /* Luminous+Battery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Battery.swift"; sourceTree = "<group>"; };
+		8F8F70DD24719072001378F4 /* Luminous+Locale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Locale.swift"; sourceTree = "<group>"; };
+		8F8F70DE24719072001378F4 /* Luminous+Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Application.swift"; sourceTree = "<group>"; };
+		8F8F70DF24719072001378F4 /* Luminous+Carrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Carrier.swift"; sourceTree = "<group>"; };
+		8F8F70E024719072001378F4 /* Luminous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Luminous.swift; sourceTree = "<group>"; };
+		8F8F70E124719072001378F4 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		8F8F70E224719072001378F4 /* Luminous+Disk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Disk.swift"; sourceTree = "<group>"; };
+		8F8F70E324719072001378F4 /* Luminous+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Audio.swift"; sourceTree = "<group>"; };
+		8F8F70E424719072001378F4 /* Luminous+Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Network.swift"; sourceTree = "<group>"; };
+		8F8F70E524719072001378F4 /* Luminous+Hardware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Hardware.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F8F70B024717718001378F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6117079CB1A6C2ACA80C1F /* Pods_LuminousX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8F70B924717719001378F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8F70BD24717719001378F4 /* LuminousX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CB834F2DBE56BE11C74C33E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AF59CC2B4CCB3FABB7F9C5A /* Pods_LuminousX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E6F403AC9946C896A3A270C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E8A7773DFE8F5773E1F69C7 /* Pods-LuminousX.debug.xcconfig */,
+				68A664C4DE4603ABB95EDE3F /* Pods-LuminousX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F8F70A924717718001378F4 = {
+			isa = PBXGroup;
+			children = (
+				8F8F70B524717718001378F4 /* LuminousX */,
+				8F8F70C024717719001378F4 /* LuminousXTests */,
+				8F8F70B424717718001378F4 /* Products */,
+				0CB834F2DBE56BE11C74C33E /* Frameworks */,
+				6E6F403AC9946C896A3A270C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8F8F70B424717718001378F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F8F70B324717718001378F4 /* LuminousX.framework */,
+				8F8F70BC24717719001378F4 /* LuminousXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F8F70B524717718001378F4 /* LuminousX */ = {
+			isa = PBXGroup;
+			children = (
+				8F8F70B624717718001378F4 /* LuminousX.h */,
+				8F8F70B724717718001378F4 /* Info.plist */,
+				8F8F70DB24719072001378F4 /* Sources */,
+			);
+			path = LuminousX;
+			sourceTree = "<group>";
+		};
+		8F8F70C024717719001378F4 /* LuminousXTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F8F70C124717719001378F4 /* LuminousXTests.swift */,
+				8F8F70C324717719001378F4 /* Info.plist */,
+			);
+			path = LuminousXTests;
+			sourceTree = "<group>";
+		};
+		8F8F70DB24719072001378F4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8F8F70DC24719072001378F4 /* Luminous+Battery.swift */,
+				8F8F70DD24719072001378F4 /* Luminous+Locale.swift */,
+				8F8F70DE24719072001378F4 /* Luminous+Application.swift */,
+				8F8F70DF24719072001378F4 /* Luminous+Carrier.swift */,
+				8F8F70E024719072001378F4 /* Luminous.swift */,
+				8F8F70E124719072001378F4 /* Reachability.swift */,
+				8F8F70E224719072001378F4 /* Luminous+Disk.swift */,
+				8F8F70E324719072001378F4 /* Luminous+Audio.swift */,
+				8F8F70E424719072001378F4 /* Luminous+Network.swift */,
+				8F8F70E524719072001378F4 /* Luminous+Hardware.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8F8F70AE24717718001378F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8F70C424717719001378F4 /* LuminousX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8F8F70B224717718001378F4 /* LuminousX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8F70C724717719001378F4 /* Build configuration list for PBXNativeTarget "LuminousX" */;
+			buildPhases = (
+				B922A7A9C0033D2BE575281B /* [CP] Check Pods Manifest.lock */,
+				8F8F70AE24717718001378F4 /* Headers */,
+				8F8F70AF24717718001378F4 /* Sources */,
+				8F8F70B024717718001378F4 /* Frameworks */,
+				8F8F70B124717718001378F4 /* Resources */,
+				8F8F70F1247193AA001378F4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuminousX;
+			productName = LuminousX;
+			productReference = 8F8F70B324717718001378F4 /* LuminousX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F8F70BB24717719001378F4 /* LuminousXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8F70CA24717719001378F4 /* Build configuration list for PBXNativeTarget "LuminousXTests" */;
+			buildPhases = (
+				8F8F70B824717719001378F4 /* Sources */,
+				8F8F70B924717719001378F4 /* Frameworks */,
+				8F8F70BA24717719001378F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F8F70BF24717719001378F4 /* PBXTargetDependency */,
+			);
+			name = LuminousXTests;
+			productName = LuminousXTests;
+			productReference = 8F8F70BC24717719001378F4 /* LuminousXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F8F70AA24717718001378F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Inficare;
+				TargetAttributes = {
+					8F8F70B224717718001378F4 = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
+					8F8F70BB24717719001378F4 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8F8F70AD24717718001378F4 /* Build configuration list for PBXProject "LuminousX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F8F70A924717718001378F4;
+			productRefGroup = 8F8F70B424717718001378F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F8F70B224717718001378F4 /* LuminousX */,
+				8F8F70BB24717719001378F4 /* LuminousXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F8F70B124717718001378F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8F70BA24717719001378F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F8F70F1247193AA001378F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: Detected, stopping\"\nelse\nexport ALREADYINVOKED=\"true\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules (from iphonesimulator build) to the copied framework directory\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\nmkdir -p ${PROJECT_DIR}/Products\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}/Products\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}/Products\"\n\nfi\n";
+		};
+		B922A7A9C0033D2BE575281B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuminousX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F8F70AF24717718001378F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8F70ED24719072001378F4 /* Luminous+Audio.swift in Sources */,
+				8F8F70E924719072001378F4 /* Luminous+Carrier.swift in Sources */,
+				8F8F70EA24719072001378F4 /* Luminous.swift in Sources */,
+				8F8F70EF24719072001378F4 /* Luminous+Hardware.swift in Sources */,
+				8F8F70EB24719072001378F4 /* Reachability.swift in Sources */,
+				8F8F70EC24719072001378F4 /* Luminous+Disk.swift in Sources */,
+				8F8F70EE24719072001378F4 /* Luminous+Network.swift in Sources */,
+				8F8F70E624719072001378F4 /* Luminous+Battery.swift in Sources */,
+				8F8F70E724719072001378F4 /* Luminous+Locale.swift in Sources */,
+				8F8F70E824719072001378F4 /* Luminous+Application.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8F70B824717719001378F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8F70C224717719001378F4 /* LuminousXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F8F70BF24717719001378F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F8F70B224717718001378F4 /* LuminousX */;
+			targetProxy = 8F8F70BE24717719001378F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F8F70C524717719001378F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F8F70C624717719001378F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F8F70C824717719001378F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8A7773DFE8F5773E1F69C7 /* Pods-LuminousX.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LuminousX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.workspacex.LuminousX;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F8F70C924717719001378F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A664C4DE4603ABB95EDE3F /* Pods-LuminousX.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LuminousX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.workspacex.LuminousX;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F8F70CB24717719001378F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuminousXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.workspacex.LuminousXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F8F70CC24717719001378F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuminousXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.workspacex.LuminousXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F8F70AD24717718001378F4 /* Build configuration list for PBXProject "LuminousX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8F70C524717719001378F4 /* Debug */,
+				8F8F70C624717719001378F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8F70C724717719001378F4 /* Build configuration list for PBXNativeTarget "LuminousX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8F70C824717719001378F4 /* Debug */,
+				8F8F70C924717719001378F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8F70CA24717719001378F4 /* Build configuration list for PBXNativeTarget "LuminousXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8F70CB24717719001378F4 /* Debug */,
+				8F8F70CC24717719001378F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F8F70AA24717718001378F4 /* Project object */;
+}
