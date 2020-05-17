@@ -22,6 +22,7 @@
 		8F8F70ED24719072001378F4 /* Luminous+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70E324719072001378F4 /* Luminous+Audio.swift */; };
 		8F8F70EE24719072001378F4 /* Luminous+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70E424719072001378F4 /* Luminous+Network.swift */; };
 		8F8F70EF24719072001378F4 /* Luminous+Hardware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70E524719072001378F4 /* Luminous+Hardware.swift */; };
+		8F8F71702471B87A001378F4 /* Luminous+IPAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F716F2471B87A001378F4 /* Luminous+IPAddress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		8F8F70E324719072001378F4 /* Luminous+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Audio.swift"; sourceTree = "<group>"; };
 		8F8F70E424719072001378F4 /* Luminous+Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Network.swift"; sourceTree = "<group>"; };
 		8F8F70E524719072001378F4 /* Luminous+Hardware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Hardware.swift"; sourceTree = "<group>"; };
+		8F8F716F2471B87A001378F4 /* Luminous+IPAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Luminous+IPAddress.swift"; sourceTree = "<group>"; };
 		AD5E7EF3FCCE77670C7FADC4 /* Pods-LuminousX-LuminousXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuminousX-LuminousXTests.release.xcconfig"; path = "Target Support Files/Pods-LuminousX-LuminousXTests/Pods-LuminousX-LuminousXTests.release.xcconfig"; sourceTree = "<group>"; };
 		BFA759BCD829BA7CC5518CA3 /* Pods_LuminousX_LuminousXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuminousX_LuminousXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -152,6 +154,7 @@
 				8F8F70E324719072001378F4 /* Luminous+Audio.swift */,
 				8F8F70E424719072001378F4 /* Luminous+Network.swift */,
 				8F8F70E524719072001378F4 /* Luminous+Hardware.swift */,
+				8F8F716F2471B87A001378F4 /* Luminous+IPAddress.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -357,6 +360,7 @@
 				8F8F70EF24719072001378F4 /* Luminous+Hardware.swift in Sources */,
 				8F8F70EB24719072001378F4 /* Reachability.swift in Sources */,
 				8F8F70EC24719072001378F4 /* Luminous+Disk.swift in Sources */,
+				8F8F71702471B87A001378F4 /* Luminous+IPAddress.swift in Sources */,
 				8F8F70EE24719072001378F4 /* Luminous+Network.swift in Sources */,
 				8F8F70E624719072001378F4 /* Luminous+Battery.swift in Sources */,
 				8F8F70E724719072001378F4 /* Luminous+Locale.swift in Sources */,

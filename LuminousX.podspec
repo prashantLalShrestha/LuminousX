@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "LuminousX"
-  spec.version = "1.1.1"
+  spec.version = "1.2.0"
   spec.summary = "LuminousX is just a simple CoreFoundationKit utility Module"
 
   spec.description = <<-DESC
