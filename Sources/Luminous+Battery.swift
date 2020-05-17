@@ -46,6 +46,8 @@ extension Luminous {
                 return BatteryState.charging
             case .full:
                 return BatteryState.full
+            @unknown default:
+                return BatteryState.unknown
             }
         }
     }

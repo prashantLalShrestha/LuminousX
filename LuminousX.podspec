@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'Sources/*.{swift}'
   # spec.exclude_files = "CoreDeviceKit/Exclude"
 
-  spec.swift_version = "4.0"
+  spec.swift_version = "5.0"
 
   # spec.public_header_files = "CoreDeviceKit/**/*.h"
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A6117079CB1A6C2ACA80C1F /* Pods_LuminousX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF59CC2B4CCB3FABB7F9C5A /* Pods_LuminousX.framework */; };
+		7AACB3D1E317F2D0897A19D5 /* Pods_LuminousX_LuminousXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA759BCD829BA7CC5518CA3 /* Pods_LuminousX_LuminousXTests.framework */; };
 		8F8F70BD24717719001378F4 /* LuminousX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8F70B324717718001378F4 /* LuminousX.framework */; };
 		8F8F70C224717719001378F4 /* LuminousXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70C124717719001378F4 /* LuminousXTests.swift */; };
 		8F8F70C424717719001378F4 /* LuminousX.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8F70B624717718001378F4 /* LuminousX.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,8 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4E8A7773DFE8F5773E1F69C7 /* Pods-LuminousX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuminousX.debug.xcconfig"; path = "../../../../PodFile/Pods/Target Support Files/Pods-LuminousX/Pods-LuminousX.debug.xcconfig"; sourceTree = "<group>"; };
-		68A664C4DE4603ABB95EDE3F /* Pods-LuminousX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuminousX.release.xcconfig"; path = "../../../../PodFile/Pods/Target Support Files/Pods-LuminousX/Pods-LuminousX.release.xcconfig"; sourceTree = "<group>"; };
+		472410A511B9B21EC42F67A5 /* Pods-LuminousX-LuminousXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuminousX-LuminousXTests.debug.xcconfig"; path = "Target Support Files/Pods-LuminousX-LuminousXTests/Pods-LuminousX-LuminousXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E8A7773DFE8F5773E1F69C7 /* Pods-LuminousX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuminousX.debug.xcconfig"; path = "Target Support Files/Pods-LuminousX/Pods-LuminousX.debug.xcconfig"; sourceTree = "<group>"; };
+		68A664C4DE4603ABB95EDE3F /* Pods-LuminousX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuminousX.release.xcconfig"; path = "Target Support Files/Pods-LuminousX/Pods-LuminousX.release.xcconfig"; sourceTree = "<group>"; };
 		6AF59CC2B4CCB3FABB7F9C5A /* Pods_LuminousX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuminousX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8F70B324717718001378F4 /* LuminousX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LuminousX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8F70B624717718001378F4 /* LuminousX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuminousX.h; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		8F8F70E324719072001378F4 /* Luminous+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Audio.swift"; sourceTree = "<group>"; };
 		8F8F70E424719072001378F4 /* Luminous+Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Network.swift"; sourceTree = "<group>"; };
 		8F8F70E524719072001378F4 /* Luminous+Hardware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Luminous+Hardware.swift"; sourceTree = "<group>"; };
+		AD5E7EF3FCCE77670C7FADC4 /* Pods-LuminousX-LuminousXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuminousX-LuminousXTests.release.xcconfig"; path = "Target Support Files/Pods-LuminousX-LuminousXTests/Pods-LuminousX-LuminousXTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFA759BCD829BA7CC5518CA3 /* Pods_LuminousX_LuminousXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuminousX_LuminousXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F8F70BD24717719001378F4 /* LuminousX.framework in Frameworks */,
+				7AACB3D1E317F2D0897A19D5 /* Pods_LuminousX_LuminousXTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				6AF59CC2B4CCB3FABB7F9C5A /* Pods_LuminousX.framework */,
+				BFA759BCD829BA7CC5518CA3 /* Pods_LuminousX_LuminousXTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,6 +94,8 @@
 			children = (
 				4E8A7773DFE8F5773E1F69C7 /* Pods-LuminousX.debug.xcconfig */,
 				68A664C4DE4603ABB95EDE3F /* Pods-LuminousX.release.xcconfig */,
+				472410A511B9B21EC42F67A5 /* Pods-LuminousX-LuminousXTests.debug.xcconfig */,
+				AD5E7EF3FCCE77670C7FADC4 /* Pods-LuminousX-LuminousXTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -186,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F8F70CA24717719001378F4 /* Build configuration list for PBXNativeTarget "LuminousXTests" */;
 			buildPhases = (
+				FFE29DA9179D2C85B33EDBB7 /* [CP] Check Pods Manifest.lock */,
 				8F8F70B824717719001378F4 /* Sources */,
 				8F8F70B924717719001378F4 /* Frameworks */,
 				8F8F70BA24717719001378F4 /* Resources */,
+				5720B70948A56F5C75F86C39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +266,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5720B70948A56F5C75F86C39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuminousX-LuminousXTests/Pods-LuminousX-LuminousXTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuminousX-LuminousXTests/Pods-LuminousX-LuminousXTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuminousX-LuminousXTests/Pods-LuminousX-LuminousXTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8F8F70F1247193AA001378F4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,6 +316,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-LuminousX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE29DA9179D2C85B33EDBB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuminousX-LuminousXTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -338,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -388,7 +438,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -401,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -445,6 +496,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -513,6 +565,7 @@
 		};
 		8F8F70CB24717719001378F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472410A511B9B21EC42F67A5 /* Pods-LuminousX-LuminousXTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +584,7 @@
 		};
 		8F8F70CC24717719001378F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD5E7EF3FCCE77670C7FADC4 /* Pods-LuminousX-LuminousXTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
