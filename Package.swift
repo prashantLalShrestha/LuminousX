@@ -12,7 +12,7 @@ let package = Package(
             targets: ["LuminousX"]),
     ],
     dependencies: [
-         .package(url: "https://github.com/prashantLalShrestha/DeviceX.git", from: "1.1.3"),
+         .package(url: "https://github.com/prashantLalShrestha/DeviceX.git", from: "1.0.0"),
     ],
     targets: [
         .target(
